@@ -1,0 +1,94 @@
+
+
+#cancha {
+
+	width: 1000px;
+	height: 500px;
+	background-color: #8cb27c;
+	margin: 20px;
+}
+
+#area {
+
+	width: 950px;
+	height: 450px;
+	border: thick solid white;
+	position: relative;
+	top: 20px;
+	left: 20px;
+
+
+}
+
+
+#centro{
+
+    width: 203px;
+	height: 203px;
+	border: thick solid white;
+	-webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    position: relative;
+    left: 370px;
+    bottom: 70px;
+
+}
+
+
+#izq {
+
+	width: 100px;
+	height: 190px;
+	border-top: thick solid white;
+	border-right: thick solid white;
+	border-bottom: thick solid white;
+	position: relative;
+	top: 125px;
+
+
+}
+
+
+#der {
+
+	width: 100px;
+	height: 190px;
+	border-top: thick solid white;
+	border-left: thick solid white;
+	border-bottom: thick solid white;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 70px;
+
+
+
+}
+
+/* pelotas */
+
+.pelota1{
+
+	position: absolute;
+	top:130px;
+	left: 90px;
+
+}
+
+.pelota2{
+
+	position: absolute;
+	top:55px;
+	left: 480px;
+
+}
+
+.pelota3{
+
+	position: absolute;
+	top:290px;
+	left:810px;
+
+}
+
